@@ -1,0 +1,15 @@
+embedding_dim: 64
+n_ui_layers: [ 4 ]
+n_mm_layers: [ 1 ]
+mm_image_weight: [ 0.3 ]
+mm_knn_k: [ 10 ]
+co_knn_k: [ 5 ]
+cl_weight: [ 0.005 ]
+flow_weight: [ 0.001 ]
+topology_weight: [ 0.05 ]
+graph_fusion_weight: [ 0.8 ]
+temperature: 0.2
+flow_hidden_dim: 128
+flow_steps: 5
+graph_warmup_epochs: 20
+hyper_parameters: [ "n_ui_layers", "n_mm_layers", "mm_image_weight", "mm_knn_k", "co_knn_k", "cl_weight", "flow_weight", "topology_weight", "graph_fusion_weight" ]
